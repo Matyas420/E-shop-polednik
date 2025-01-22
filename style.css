@@ -1,6 +1,21 @@
 body {
     background-color: gray;
+    background-image: url("windows.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
 .pozadi {
     background-color: lightblue;
 }
+h2, h1, p {
+    text-align: center;
+    color:black;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }

@@ -1,8 +1,8 @@
 body {
-    background-color: gray;
-    background-image: url("windows.jpg");
+    background: url("windows.jpg") no-repeat center center fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-size: 100%,100%;
     background-position: center;
     
 }
@@ -16,6 +16,10 @@ h2, h1, p {
 footer {
     text-align: center;
     padding: 3px;
-    background-color: DarkSalmon;
-    color: white;
+    background-color: lightyellow;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }

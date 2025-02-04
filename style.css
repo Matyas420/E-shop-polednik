@@ -1,11 +1,19 @@
 body {
-    background: url("windows.jpg") no-repeat center center fixed;
+    background-image: url('windows.jpg'); 
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size:cover;
-    background-size: 100%,100%;
-    background-position: center;
-    
-}
+    font-family: Arial, sans-serif;
+  }
+
+  .pismo{ 
+    color: black;
+    font-size: 30px;
+  }
+
+  .workers img {
+    width: 800px;
+  }
+
 .pozadi {
     background-color: lightblue;
 }
@@ -15,7 +23,6 @@ h2, h1, p {
 }
 footer {
     text-align: center;
-    padding: 3px;
     background-color: lightyellow;
     position: fixed;
     left: 0;
@@ -23,7 +30,7 @@ footer {
     width: 100%;
   }
 .zarovnani {
-    margin-top: 220px;
+    margin-top: 100px;
 }
 .bagr {
     margin-left: 600px;
@@ -32,4 +39,7 @@ footer {
 .buldozer {
     margin-left: 800px;
     margin-top: 190px;
+}
+.workers {
+    margin-left: 270px;
 }

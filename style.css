@@ -44,3 +44,7 @@ footer {
 .workers {
     margin-left: 270px;
 }
+
+.card {
+  max-width: 250px;
+}
